@@ -1,0 +1,174 @@
+/* SECCION DE MENU PRINCIPAL / NAVBAR */
+.menu__principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.barra__buscar{
+    width: 400px;
+    border-radius: 20px;
+    padding: 7px;
+    border-color: lightgrey;
+}
+
+.btnLogin{
+    width: 100px;
+    padding: 8px;
+    background-color: white;
+    border-color: lightskyblue;
+    color: lightskyblue;
+}
+
+/* SECCION DE BANNER */
+.banner{
+    background-image: url(../assets/images/banner-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: flex-end;
+    height: 400px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: 15px;
+    color: white;
+}
+
+.info__banner{
+    display: flex;
+    width: 1136px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.titulo__banner{
+    color: var(--preto-blanco, #fff);
+    font-family: Raleway;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.txtBanner{
+    color: var(--preto-blanco, #fff);
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btnBanner{
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: var(--azul-100, #2A7AE4);
+    border: none;
+    color: var(--preto-blanco);
+}
+
+/* SECCION DE GALERIA */
+
+/* STAR-WARS */
+.galeria{
+    margin: 3px 3px 3px 3px;
+    padding: 50px;
+}
+
+.titutlo__star{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.star__wars{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img__star{
+    height: 200px;
+    width: 200px;
+}
+
+/* CONSOLAS */
+.titulo__consola{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.consolas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img__consola{
+    height: 200px;
+    width: 200px;
+}
+
+/* DIVERSOS */
+.diversos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo__diversos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.img__diversos{
+    height: 200px;
+    width: 200px;
+}
+
+/* CONTACTO */
+.contacto{
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    flex-wrap: wrap;
+    background-color: #EAF2FD;
+    padding: 50px;
+    align-content: space-between;
+}
+
+.img__contacto{
+    height: 70px;
+    width: 150px;
+    padding: 50px;
+}
+
+.contacto__item{
+    color: black;
+    white-space: pre-line;
+}
+
+.contacto__formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input__form{
+    display: flex;
+    flex-direction: column;
+}
+
+/* FOOTER */
+.footer{
+    text-align: center;
+}

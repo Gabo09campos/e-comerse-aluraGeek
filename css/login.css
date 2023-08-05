@@ -1,0 +1,90 @@
+/* SECCION DE MENU PRINCIPAL / NAVBAR */
+.menu__principal{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.barra__buscar{
+    width: 400px;
+    border-radius: 20px;
+    padding: 7px;
+    border-color: lightgrey;
+    margin-left: 50px;
+}
+
+/* SECCION DE LOGIN */
+.login{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: #F5F5F5;
+    padding: 60px;
+
+}
+
+.input__correo{
+    width: 30%;
+    align-self: center;
+    height: 40px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.input__contrasena{
+    width: 30%;
+    align-self: center;
+    margin-top: 15px;
+    height: 40px;
+    text-align: center;
+}
+
+.btnEntrar{
+    width: 31%;
+    align-self: center;
+    margin-top: 15px;
+    height: 40px;
+    text-align: center;
+    background-color: #2A7AE4;
+    color: white;
+    border: none;
+}
+
+/* CONTACTO */
+.contacto{
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    flex-wrap: wrap;
+    background-color: #EAF2FD;
+    padding: 50px;
+    align-content: space-between;
+}
+
+.img__contacto{
+    height: 70px;
+    width: 150px;
+    padding: 50px;
+}
+
+.contacto__item{
+    color: black;
+    white-space: pre-line;
+}
+
+.contacto__formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input__form{
+    display: flex;
+    flex-direction: column;
+}
+
+/* FOOTER */
+.footer{
+    text-align: center;
+}
